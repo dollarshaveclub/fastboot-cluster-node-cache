@@ -1,29 +1,29 @@
 {
-  "name": "fastboot-redis-cache",
+  "name": "fastboot-cluster-node-cache",
   "version": "0.1.0",
-  "description": "A FastBoot App Server cache for Redis",
+  "description": "A FastBoot App Server cache built using cluster-node-cache",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomdale/fastboot-redis-cache.git"
+    "url": "git+https://github.com/dollarshaveclub/fastboot-cluster-node-cache.git"
   },
   "keywords": [
     "ember",
     "fastboot",
-    "redis",
-    "cache"
+    "cache",
+    "redis"
   ],
-  "author": "Tom Dale <tom@tomdale.net>",
+  "author": "Brian Gonzalez <brian@dollarshaveclub.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomdale/fastboot-redis-cache/issues"
+    "url": "https://github.com/dollarshaveclub/fastboot-cluster-node-cache/issues"
   },
-  "homepage": "https://github.com/tomdale/fastboot-redis-cache#readme",
+  "homepage": "https://github.com/dollarshaveclub/fastboot-cluster-node-cache#readme",
   "dependencies": {
-    "redis": "^2.6.0-2"
+    "cluster-node-cache": "^0.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
